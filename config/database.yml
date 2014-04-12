@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
+  adapter: mysql2
   database: db/production.sqlite3
   pool: 5
+  username: root
+  password: extract
   timeout: 5000
+  host: 192.168.0.7
