@@ -23,7 +23,7 @@ production:
   encoding: utf8
   database: prod-db
   pool: 5
-  username: pi
+  username: root
   password: extract
   timeout: 5000
   host: 192.168.0.7
